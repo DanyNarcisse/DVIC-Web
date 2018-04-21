@@ -47,4 +47,17 @@
 	   navMain.collapse('hide');
 	});
 
+    
 })(jQuery);
+
+
+/* ------ MENU ------ */
+function openNav() {
+    document.getElementById("sidenav").style.width = "250px";
+}
+
+function closeNav() {
+    document.getElementById("sidenav").style.width = "0";
+}
+/* ------ MENU ------ */
+
